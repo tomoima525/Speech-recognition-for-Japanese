@@ -1,0 +1,15 @@
+{
+  "javascript.validate.enable": false,
+  "typescript.reportStyleChecksAsWarnings": true,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "editor.action.formatDocument": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "workbench.colorCustomizations": {}
+}
