@@ -15,3 +15,10 @@
 ### Google Storage setup (grant permission)
 
 - TBD
+
+### Execution
+- run  command
+
+```
+yarn start
+```
