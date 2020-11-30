@@ -2,12 +2,12 @@
   "name": "speech-recognition",
   "version": "1.0.0",
   "description": "speech recognition using Google Cloud Speech",
-  "main": "build/index.js",
+  "main": "build/src/index.js",
   "scripts": {
-    "build": "rm -rf ./build && tsc",
-    "start": "yarn run build && node -r dotenv/config build/index.js",
+    "start": "babel-node -x \".ts\" src/index.ts",
+    "build:js": "rm -rf ./build && babel src --out-dir build --extensions \".ts,.tsx\" --source-maps inline",
     "lint": "eslint . --ext .ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "Google Cloud",
@@ -16,13 +16,22 @@
   "author": "Tomoaki Imai",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.15",
     "@types/node": "^14.0.13",
     "@types/node-fetch": "^2.5.7",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/parser": "^3.2.0",
+    "babel-jest": "^26.6.3",
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.6.3",
     "prettier": "^2.0.5",
     "typescript": "^3.9.5"
   },
