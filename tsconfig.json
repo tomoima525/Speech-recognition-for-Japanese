@@ -14,4 +14,10 @@
     "moduleResolution": "node",
     "isolatedModules": true,
   },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
