@@ -1,4 +1,5 @@
 import speech, { protos } from '@google-cloud/speech';
+import addPunctuation from './addPunctuation';
 
 const client = new speech.SpeechClient();
 const config = {
@@ -14,7 +15,7 @@ const config = {
 };
 
 const audio = {
-  uri: 'gs://cloud-samples-tests/speech/brooklyn.flac'
+  uri: 'gs://tomoima525-audio-data/test-data/today_i_learned_07_sample.flac'
 };
 
 const request = {
@@ -37,7 +38,7 @@ async function transcribeAudio() {
       // We know for sure metadata is LongRunningRecognizeMetadata
       const meta = (decodedOperation?.metadata as unknown) as protos.google.cloud.speech.v1.LongRunningRecognizeMetadata;
       const percent = meta?.progressPercent || 0;
-      console.log(`progress ${percent}% ${JSON.stringify(decodedOperation)}`);
+      console.log(`progress ${percent}%`);
       running = !(decodedOperation.done || false);
       if (percent === 100) {
         console.log(`Done! startTime: ${meta.startTime?.seconds} endTime: ${meta.lastUpdateTime?.seconds}\n`);
@@ -61,6 +62,8 @@ async function transcribeAudio() {
       }
       const speakerTag = wordsInfo[0]?.speakerTag || '-';
       console.log(`(${speakerTag}): ${alternatives[0].transcript}\n`);
+      const words = alternatives[0].words?.map((wordsInfo) => wordsInfo?.word || '').filter((w) => w !== '');
+      console.log(`(punctuated):${addPunctuation(words)}`);
       // TODO: log every 60 second
       // alternatives[0].words?.forEach((wordInfo) => {
       //   const startSecs = `${wordInfo?.startTime?.seconds}` + '.' + wordInfo?.startTime?.nanos || 0 / 100000000;
