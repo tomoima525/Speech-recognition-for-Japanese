@@ -1,6 +1,7 @@
 import fs from 'fs';
 import speech, { protos } from '@google-cloud/speech';
 import addPunctuation from './addPunctuation';
+import addTime from './addTime';
 
 const client = new speech.v1p1beta1.SpeechClient();
 const config = {
@@ -84,20 +85,16 @@ async function transcribeAudio() {
         continue;
       }
       const words = speakArr.map((wordsInfo) => wordsInfo?.word || '').filter((w) => w !== '');
-      //console.log(`(p-${speakArr[0].speakerTag}):${addPunctuation(words)}`);
-      fs.appendFileSync('result.txt', `(p-${speakArr[0].speakerTag}):${addPunctuation(words)}\n`);
+      // console.log(`${addTime(speakArr[speakArr.length - 1])},(p-${speakArr[0].speakerTag}),${addPunctuation(words)}`);
+      fs.appendFileSync(
+        'result.txt',
+        `${addTime(speakArr[speakArr.length - 1])}:(p-${speakArr[0].speakerTag}):${addPunctuation(words)}\n`
+      );
       speakArr.splice(0, speakArr.length);
       speakArr.push(wordInfo);
     }
 
     console.log('Done!');
-    // TODO: log every 60 second
-    // alternatives[0].words?.forEach((wordInfo) => {
-    //   const startSecs = `${wordInfo?.startTime?.seconds}` + '.' + wordInfo?.startTime?.nanos || 0 / 100000000;
-    //   const endSecs = `${wordInfo?.endTime?.seconds}` + '.' + wordInfo?.endTime?.nanos || 0 / 100000000;
-    //   console.log(`Word: ${wordInfo.word}`);
-    //   console.log(`\t ${startSecs} secs - ${endSecs} secs`);
-    // });
   } catch (e) {
     console.log({ error: e });
   }
