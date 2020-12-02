@@ -27,13 +27,13 @@ jobs:
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
-
-      - name: Setup ts-node
-        run: npm install -g ts-node
       
       # Runs a single command using the runners shell
       - name: Install Dependencies
         run: npm install
+      
+      - name: Setup ts-node
+        run: npm install ts-node
 
       # Runs a set of commands using the runners shell
       - name: Run test
