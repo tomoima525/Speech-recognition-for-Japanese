@@ -1,0 +1,2437 @@
+[
+  {
+    "startTime": {},
+    "endTime": {
+      "nanos": 800000000
+    },
+    "word": "はい|ハイ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "1",
+      "nanos": 800000000
+    },
+    "word": "僕|ボク",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "1",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "1",
+      "nanos": 900000000
+    },
+    "word": "は|ワ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "1",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "2",
+      "nanos": 300000000
+    },
+    "word": "ゆうすけ|ユースケ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "2",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "2",
+      "nanos": 500000000
+    },
+    "word": "です|デス",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "2",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "3",
+      "nanos": 300000000
+    },
+    "word": "メール|メール",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "3",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "3",
+      "nanos": 400000000
+    },
+    "word": "で|デ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "3",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "3",
+      "nanos": 700000000
+    },
+    "word": "ソフト|ソフト",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "3",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "4",
+      "nanos": 100000000
+    },
+    "word": "エンジニア|エンジニア",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "4",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "4",
+      "nanos": 100000000
+    },
+    "word": "を|オ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "4",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "4",
+      "nanos": 200000000
+    },
+    "word": "し|シ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "4",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "4",
+      "nanos": 200000000
+    },
+    "word": "て|テ",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "4",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "4",
+      "nanos": 400000000
+    },
+    "word": "ます|マス",
+    "speakerTag": 2
+  },
+  {
+    "startTime": {
+      "seconds": "4",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "6"
+    },
+    "word": "今|イマ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "6"
+    },
+    "endTime": {
+      "seconds": "6",
+      "nanos": 300000000
+    },
+    "word": "最も|イトモ,モットモ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "6",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "7",
+      "nanos": 600000000
+    },
+    "word": "サンフランシスコ|サンフランシスコ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "7",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "7",
+      "nanos": 700000000
+    },
+    "word": "に|ニ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "7",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "7",
+      "nanos": 800000000
+    },
+    "word": "ある|アル",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "7",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "8",
+      "nanos": 300000000
+    },
+    "word": "と|ト",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "8",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "8",
+      "nanos": 400000000
+    },
+    "word": "いう|ユー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "8",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "9",
+      "nanos": 300000000
+    },
+    "word": "体験|タイケン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "9",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "9",
+      "nanos": 400000000
+    },
+    "word": "を|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "9",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "9",
+      "nanos": 700000000
+    },
+    "word": "共有|キョーユー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "9",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "9",
+      "nanos": 900000000
+    },
+    "word": "する|スル",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "9",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "10"
+    },
+    "word": "サービス|サービス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "10"
+    },
+    "endTime": {
+      "seconds": "10",
+      "nanos": 200000000
+    },
+    "word": "を|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "10",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "10",
+      "nanos": 400000000
+    },
+    "word": "開発|カイハツ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "10",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "10",
+      "nanos": 800000000
+    },
+    "word": "する|スル",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "10",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "11",
+      "nanos": 100000000
+    },
+    "word": "会社|カイシャ,ガイシャ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "11",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "11",
+      "nanos": 300000000
+    },
+    "word": "で|デ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "11",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "11",
+      "nanos": 400000000
+    },
+    "word": "働い|ハタライ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "11",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "11",
+      "nanos": 800000000
+    },
+    "word": "て|テ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "11",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "11",
+      "nanos": 900000000
+    },
+    "word": "い|イ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "11",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "12"
+    },
+    "word": "ます|マス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "12"
+    },
+    "endTime": {
+      "seconds": "13",
+      "nanos": 400000000
+    },
+    "word": "いやいや|イヤイヤ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "13",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "14"
+    },
+    "word": "さん|サン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "14"
+    },
+    "endTime": {
+      "seconds": "14",
+      "nanos": 300000000
+    },
+    "word": "自己|ジコ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "14",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "14",
+      "nanos": 400000000
+    },
+    "word": "紹介|ショーカイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "14",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "14",
+      "nanos": 900000000
+    },
+    "word": "お|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "14",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "15",
+      "nanos": 200000000
+    },
+    "word": "願い|ネガイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "15",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "15",
+      "nanos": 300000000
+    },
+    "word": "し|シ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "15",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "15",
+      "nanos": 400000000
+    },
+    "word": "ます|マス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "15",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "17"
+    },
+    "word": "はい|ハイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "17"
+    },
+    "endTime": {
+      "seconds": "18",
+      "nanos": 200000000
+    },
+    "word": "こんにちは|コンニチワ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "18",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "18",
+      "nanos": 400000000
+    },
+    "word": "ゆう|ユー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "18",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "18",
+      "nanos": 500000000
+    },
+    "word": "や|ヤ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "18",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "18",
+      "nanos": 700000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "18",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "20",
+      "nanos": 100000000
+    },
+    "word": "サンフランシスコ|サンフランシスコ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "20",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "20",
+      "nanos": 200000000
+    },
+    "word": "ベイ|ベー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "20",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "20",
+      "nanos": 300000000
+    },
+    "word": "エリア|エリア",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "20",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "20",
+      "nanos": 600000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "20",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "21"
+    },
+    "word": "フード|フード",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "21"
+    },
+    "endTime": {
+      "seconds": "21",
+      "nanos": 400000000
+    },
+    "word": "ストラップ|ストラップ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "21",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "22",
+      "nanos": 900000000
+    },
+    "word": "ラーメン|ラーメン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "22",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "23",
+      "nanos": 200000000
+    },
+    "word": "ヒーロー|ヒーロー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "23",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "23",
+      "nanos": 400000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "23",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "23",
+      "nanos": 600000000
+    },
+    "word": "て|テ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "23",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "23",
+      "nanos": 900000000
+    },
+    "word": "苦労|クロー,グロー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "23",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "24",
+      "nanos": 200000000
+    },
+    "word": "し|シ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "24",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "24",
+      "nanos": 300000000
+    },
+    "word": "て|テ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "24",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "24",
+      "nanos": 400000000
+    },
+    "word": "い|イ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "24",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "24",
+      "nanos": 600000000
+    },
+    "word": "ます|マス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "24",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "25",
+      "nanos": 800000000
+    },
+    "word": "2019|ニセンジューキュー,ニーゼロイチキュー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "25",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "26",
+      "nanos": 100000000
+    },
+    "word": "年|ネン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "26",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "26",
+      "nanos": 400000000
+    },
+    "word": "から|カラ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "26",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "26",
+      "nanos": 800000000
+    },
+    "word": "バンクーバー|バンクーバー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "26",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "27",
+      "nanos": 200000000
+    },
+    "word": "に|ニ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "27",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "27",
+      "nanos": 300000000
+    },
+    "word": "住ん|スン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "27",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "27",
+      "nanos": 500000000
+    },
+    "word": "で|デ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "27",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "27",
+      "nanos": 500000000
+    },
+    "word": "い|イ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "27",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "27",
+      "nanos": 700000000
+    },
+    "word": "ます|マス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "27",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "28",
+      "nanos": 100000000
+    },
+    "word": "よろしく|ヨロシク",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "28",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "28",
+      "nanos": 300000000
+    },
+    "word": "お|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "28",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "28",
+      "nanos": 500000000
+    },
+    "word": "願い|ネガイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "28",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "28",
+      "nanos": 500000000
+    },
+    "word": "し|シ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "28",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "28",
+      "nanos": 600000000
+    },
+    "word": "ます|マス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "28",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "29",
+      "nanos": 400000000
+    },
+    "word": "お|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "29",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "29",
+      "nanos": 600000000
+    },
+    "word": "願い|ネガイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "29",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "30"
+    },
+    "word": "し|シ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "30"
+    },
+    "endTime": {
+      "seconds": "30",
+      "nanos": 100000000
+    },
+    "word": "ます|マス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "30",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "32",
+      "nanos": 100000000
+    },
+    "word": "今井|イマイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "32",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "32",
+      "nanos": 300000000
+    },
+    "word": "さん|サン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "32",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "32",
+      "nanos": 500000000
+    },
+    "word": "と|ト",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "32",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "32",
+      "nanos": 600000000
+    },
+    "word": "いう|ユー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "32",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "32",
+      "nanos": 800000000
+    },
+    "word": "屋|ヤ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "32",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "33"
+    },
+    "word": "さん|サン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "33"
+    },
+    "endTime": {
+      "seconds": "33",
+      "nanos": 300000000
+    },
+    "word": "は|ワ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "33",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "33",
+      "nanos": 700000000
+    },
+    "word": "どう|ドー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "33",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "34"
+    },
+    "word": "いう|ユー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34"
+    },
+    "endTime": {
+      "seconds": "34",
+      "nanos": 300000000
+    },
+    "word": "出会い|デアイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "34",
+      "nanos": 400000000
+    },
+    "word": "だっ|ダッ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "34",
+      "nanos": 600000000
+    },
+    "word": "た|タ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "34",
+      "nanos": 700000000
+    },
+    "word": "ん|ン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "34",
+      "nanos": 800000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "34",
+      "nanos": 900000000
+    },
+    "word": "か|カ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "34",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "37"
+    },
+    "word": "これ|コレ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "37"
+    },
+    "endTime": {
+      "seconds": "37",
+      "nanos": 600000000
+    },
+    "word": "直接|チョクセツ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "37",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "38",
+      "nanos": 100000000
+    },
+    "word": "実|サネ,ジツ,ミ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "38",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "38",
+      "nanos": 200000000
+    },
+    "word": "は|ワ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "38",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "38",
+      "nanos": 400000000
+    },
+    "word": "まだ|マダ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "38",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "38",
+      "nanos": 700000000
+    },
+    "word": "会っ|アッ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "38",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "38",
+      "nanos": 900000000
+    },
+    "word": "た|タ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "38",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "38",
+      "nanos": 900000000
+    },
+    "word": "こと|コト",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "38",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "39",
+      "nanos": 100000000
+    },
+    "word": "ない|ナイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "39",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "39",
+      "nanos": 200000000
+    },
+    "word": "ん|ン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "39",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "39",
+      "nanos": 400000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "39",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "39",
+      "nanos": 500000000
+    },
+    "word": "よ|ヨ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "39",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "39",
+      "nanos": 600000000
+    },
+    "word": "ね|ネ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "39",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "40",
+      "nanos": 400000000
+    },
+    "word": "そう|ソー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "40",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "40",
+      "nanos": 700000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "40",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "40",
+      "nanos": 800000000
+    },
+    "word": "ね|ネ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "40",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "41",
+      "nanos": 100000000
+    },
+    "word": "はい|ハイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "41",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "42",
+      "nanos": 300000000
+    },
+    "word": "ただ|タダ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "42",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "43",
+      "nanos": 300000000
+    },
+    "word": "うち|ウチ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "43",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "43",
+      "nanos": 400000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "43",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "43",
+      "nanos": 800000000
+    },
+    "word": "会社|カイシャ,ガイシャ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "43",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "44",
+      "nanos": 800000000
+    },
+    "word": "自分|ジブン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "44",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "45"
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "45"
+    },
+    "endTime": {
+      "seconds": "45",
+      "nanos": 200000000
+    },
+    "word": "今|イマ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "45",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "45",
+      "nanos": 500000000
+    },
+    "word": "働い|ハタライ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "45",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "45",
+      "nanos": 600000000
+    },
+    "word": "てる|テル",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "45",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "45",
+      "nanos": 800000000
+    },
+    "word": "会社|カイシャ,ガイシャ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "45",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "47"
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "47"
+    },
+    "endTime": {
+      "seconds": "47",
+      "nanos": 300000000
+    },
+    "word": "神|カミ,カミノ,ガミ,シン,ジン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "47",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "47",
+      "nanos": 500000000
+    },
+    "word": "様|サマ,ヨー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "47",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "47",
+      "nanos": 700000000
+    },
+    "word": "と|ト",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "47",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "48",
+      "nanos": 600000000
+    },
+    "word": "ラーメン|ラーメン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "48",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "48",
+      "nanos": 900000000
+    },
+    "word": "ヒーロー|ヒーロー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "48",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "49",
+      "nanos": 100000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "49",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "49",
+      "nanos": 400000000
+    },
+    "word": "神|カミ,カミノ,ガミ,シン,ジン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "49",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "49",
+      "nanos": 500000000
+    },
+    "word": "様|サマ,ヨー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "49",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "50",
+      "nanos": 700000000
+    },
+    "word": "が|ガ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "50",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "51",
+      "nanos": 100000000
+    },
+    "word": "まあ|マー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "51",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "51",
+      "nanos": 500000000
+    },
+    "word": "仲|ナカ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "51",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "51",
+      "nanos": 500000000
+    },
+    "word": "良い|イー,ヨイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "51",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "51",
+      "nanos": 800000000
+    },
+    "word": "と|ト",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "51",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "52"
+    },
+    "word": "言う|イウ,ユー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "52"
+    },
+    "endTime": {
+      "seconds": "52",
+      "nanos": 100000000
+    },
+    "word": "か|カ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "52",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "53",
+      "nanos": 100000000
+    },
+    "word": "な|ナ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "53",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "53",
+      "nanos": 200000000
+    },
+    "word": "ん|ン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "53",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "53",
+      "nanos": 400000000
+    },
+    "word": "でしょう|デショー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "53",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "53",
+      "nanos": 600000000
+    },
+    "word": "ね|ネ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "53",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "54",
+      "nanos": 700000000
+    },
+    "word": "おそらく|オソラク",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "54",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "55",
+      "nanos": 100000000
+    },
+    "word": "あの|アノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "55",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "55",
+      "nanos": 500000000
+    },
+    "word": "チョンプ|チョンプ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "55",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "55",
+      "nanos": 500000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "55",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "56"
+    },
+    "word": "使用|シヨー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "56"
+    },
+    "endTime": {
+      "seconds": "56",
+      "nanos": 200000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "56",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "56",
+      "nanos": 500000000
+    },
+    "word": "キヨ|キヨ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "56",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "56",
+      "nanos": 500000000
+    },
+    "word": "さん|サン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "56",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "56",
+      "nanos": 800000000
+    },
+    "word": "が|ガ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "56",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "58",
+      "nanos": 100000000
+    },
+    "word": "ラーメン|ラーメン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "58",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "58",
+      "nanos": 700000000
+    },
+    "word": "ヒーロー|ヒーロー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "58",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "58",
+      "nanos": 900000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "58",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "59",
+      "nanos": 500000000
+    },
+    "word": "使用|シヨー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "59",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "59",
+      "nanos": 700000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "59",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "59",
+      "nanos": 900000000
+    },
+    "word": "日|ヒ,ビ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "59",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "60",
+      "nanos": 200000000
+    },
+    "word": "さん|サン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "60",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "60",
+      "nanos": 300000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "60",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "60",
+      "nanos": 800000000
+    },
+    "word": "師匠|シショー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "60",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "61"
+    },
+    "word": "的|テキ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "61"
+    },
+    "endTime": {
+      "seconds": "61",
+      "nanos": 100000000
+    },
+    "word": "な|ナ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "61",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "61",
+      "nanos": 300000000
+    },
+    "word": "存在|ソンザイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "61",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "61",
+      "nanos": 700000000
+    },
+    "word": "な|ナ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "61",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "61",
+      "nanos": 700000000
+    },
+    "word": "ん|ン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "61",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "61",
+      "nanos": 800000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "61",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "62"
+    },
+    "word": "よ|ヨ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "62"
+    },
+    "endTime": {
+      "seconds": "62"
+    },
+    "word": "ね|ネ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "62"
+    },
+    "endTime": {
+      "seconds": "65",
+      "nanos": 800000000
+    },
+    "word": "と|ト",
+    "speakerTag": 3
+  },
+  {
+    "startTime": {
+      "seconds": "65",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "67",
+      "nanos": 700000000
+    },
+    "word": "その|ソノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "67",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "68",
+      "nanos": 600000000
+    },
+    "word": "繋がり|ツナガリ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "68",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "68",
+      "nanos": 600000000
+    },
+    "word": "で|デ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "68",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "70",
+      "nanos": 700000000
+    },
+    "word": "ビデオ|ビデオ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "70",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "70",
+      "nanos": 800000000
+    },
+    "word": "チャット|チャット",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "70",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "71",
+      "nanos": 200000000
+    },
+    "word": "を|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "71",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "71",
+      "nanos": 300000000
+    },
+    "word": "し|シ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "71",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "71",
+      "nanos": 600000000
+    },
+    "word": "たり|タリ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "71",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "73",
+      "nanos": 200000000
+    },
+    "word": "そう|ソー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "73",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "73",
+      "nanos": 500000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "73",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "73",
+      "nanos": 700000000
+    },
+    "word": "ね|ネ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "73",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "74"
+    },
+    "word": "駅|エキ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "74"
+    },
+    "endTime": {
+      "seconds": "74",
+      "nanos": 400000000
+    },
+    "word": "から|カラ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "74",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "74",
+      "nanos": 800000000
+    },
+    "word": "の|ノ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "74",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "75",
+      "nanos": 300000000
+    },
+    "word": "はい|ハイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "75",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "76",
+      "nanos": 200000000
+    },
+    "word": "繋がり|ツナガリ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "76",
+      "nanos": 200000000
+    },
+    "endTime": {
+      "seconds": "76",
+      "nanos": 900000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "76",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "77"
+    },
+    "word": "ね|ネ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "77"
+    },
+    "endTime": {
+      "seconds": "78",
+      "nanos": 100000000
+    },
+    "word": "で|デ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "78",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "78",
+      "nanos": 600000000
+    },
+    "word": "早速|サッソク",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "78",
+      "nanos": 600000000
+    },
+    "endTime": {
+      "seconds": "78",
+      "nanos": 700000000
+    },
+    "word": "で|デ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "78",
+      "nanos": 700000000
+    },
+    "endTime": {
+      "seconds": "78",
+      "nanos": 800000000
+    },
+    "word": "は|ワ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "78",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "79"
+    },
+    "word": "まず|マズ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "79"
+    },
+    "endTime": {
+      "seconds": "79",
+      "nanos": 100000000
+    },
+    "word": "ラーメン|ラーメン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "79",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "79",
+      "nanos": 800000000
+    },
+    "word": "ヒーロー|ヒーロー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "79",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "80",
+      "nanos": 100000000
+    },
+    "word": "に|ニ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "80",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "80",
+      "nanos": 300000000
+    },
+    "word": "つい|ツイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "80",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "80",
+      "nanos": 500000000
+    },
+    "word": "て|テ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "80",
+      "nanos": 500000000
+    },
+    "endTime": {
+      "seconds": "81",
+      "nanos": 400000000
+    },
+    "word": "説明|セツメー",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "81",
+      "nanos": 400000000
+    },
+    "endTime": {
+      "seconds": "81",
+      "nanos": 800000000
+    },
+    "word": "を|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "81",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "81",
+      "nanos": 900000000
+    },
+    "word": "お|オ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "81",
+      "nanos": 900000000
+    },
+    "endTime": {
+      "seconds": "82",
+      "nanos": 800000000
+    },
+    "word": "願い|ネガイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "82",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "82",
+      "nanos": 800000000
+    },
+    "word": "し|シ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "82",
+      "nanos": 800000000
+    },
+    "endTime": {
+      "seconds": "83"
+    },
+    "word": "たい|タイ",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "83"
+    },
+    "endTime": {
+      "seconds": "83"
+    },
+    "word": "ん|ン",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "83"
+    },
+    "endTime": {
+      "seconds": "83",
+      "nanos": 100000000
+    },
+    "word": "です|デス",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "83",
+      "nanos": 100000000
+    },
+    "endTime": {
+      "seconds": "83",
+      "nanos": 300000000
+    },
+    "word": "けど|ケド",
+    "speakerTag": 1
+  },
+  {
+    "startTime": {
+      "seconds": "83",
+      "nanos": 300000000
+    },
+    "endTime": {
+      "seconds": "83",
+      "nanos": 300000000
+    },
+    "word": "も|モ",
+    "speakerTag": 1
+  }
+]
