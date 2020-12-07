@@ -13,7 +13,17 @@ const config = {
   diarizationSpeakerCount: 3,
   encoding: protos.google.cloud.speech.v1.RecognitionConfig.AudioEncoding.FLAC,
   sampleRateHertz: 44100,
-  languageCode: 'ja-JP'
+  languageCode: 'ja-JP',
+  speechContexts: [
+    {
+      phrases: ['今井', 'ベイエリア', 'Today I Learned', 'ゆうやさん', 'CEO', 'テックリード', 'スタートアップ'],
+      boost: 20
+    },
+    {
+      phrases: ['今最も', 'いやいやさん', 'いう屋さん', '神様'],
+      boost: 1
+    }
+  ]
 };
 
 const audio = {
@@ -62,7 +72,13 @@ async function transcribeAudio() {
       console.log('No result');
       return;
     }
-
+    console.log('===', response.results.length);
+    console.log('====1', {
+      transcript: ((response.results[0]?.alternatives || [])[0] || { transcript: 'no t' })?.transcript
+    });
+    console.log('====2', {
+      transcript: ((response.results[1]?.alternatives || [])[0] || { transcript: 'no t' })?.transcript
+    });
     const result = response.results[response.results.length - 1];
     const alternatives = result?.alternatives || [];
     if (alternatives.length <= 0) {
@@ -85,13 +101,17 @@ async function transcribeAudio() {
         continue;
       }
       const words = speakArr.map((wordsInfo) => wordsInfo?.word || '').filter((w) => w !== '');
-      // console.log(`${addTime(speakArr[speakArr.length - 1])},(p-${speakArr[0].speakerTag}),${addPunctuation(words)}`);
+      console.log(`${addTime(speakArr[speakArr.length - 1])},(p-${speakArr[0].speakerTag}),${addPunctuation(words)}`);
       fs.appendFileSync(
         'result.txt',
         `${addTime(speakArr[speakArr.length - 1])}:(p-${speakArr[0].speakerTag}):${addPunctuation(words)}\n`
       );
       speakArr.splice(0, speakArr.length);
       speakArr.push(wordInfo);
+    }
+    if (speakArr.length > 0) {
+      const words = speakArr.map((wordsInfo) => wordsInfo?.word || '').filter((w) => w !== '');
+      console.log(`${addTime(speakArr[speakArr.length - 1])},(p-${speakArr[0].speakerTag}),${addPunctuation(words)}`);
     }
 
     console.log('Done!');
