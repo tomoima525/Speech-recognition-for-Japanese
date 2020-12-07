@@ -1,0 +1,10 @@
+{
+  "audioChannelCount": 2,
+  "enableWordTimeOffsets": true,
+  "enableAutomaticPunctuation": true,
+  "enableSpeakerDiarization": true,
+  "diarizationSpeakerCount": 3,
+  "encoding": "FLAC",
+  "sampleRateHertz": 44100,
+  "languageCode": "ja-JP"
+}

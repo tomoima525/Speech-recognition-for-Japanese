@@ -1,39 +1,50 @@
 import fs from 'fs';
 import speech, { protos } from '@google-cloud/speech';
+import yargs from 'yargs';
 import addPunctuation from './addPunctuation';
 import addTime from './addTime';
+import config from './config.json';
 
+const { argv } = yargs.options({
+  uri: {
+    type: 'string',
+    demandOption: true,
+    describe: 'path of file(local filepath or google storage uri e.g. gs://~'
+  }
+});
 const client = new speech.v1p1beta1.SpeechClient();
-const config = {
-  audioChannelCount: 2,
-  enableWordTimeOffsets: true,
-  enableAutomaticPunctuation: true,
-  // Speaker diarization
-  enableSpeakerDiarization: true,
-  diarizationSpeakerCount: 3,
-  encoding: protos.google.cloud.speech.v1.RecognitionConfig.AudioEncoding.FLAC,
-  sampleRateHertz: 44100,
-  languageCode: 'ja-JP'
+
+const { uri } = argv;
+const audio = {
+  uri
 };
 
-const audio = {
-  uri: 'gs://tomoima525-audio-data/test-data/today_i_learned_07_sample.flac'
+type Config = {
+  audioChannelCount: number;
+  enableWordTimeOffsets: boolean;
+  enableAutomaticPunctuation: boolean;
+  // Speaker diarization
+  enableSpeakerDiarization: boolean;
+  diarizationSpeakerCount: number;
+  encoding: protos.google.cloud.speech.v1.RecognitionConfig.AudioEncoding;
+  sampleRateHertz: number;
+  languageCode: string;
 };
 
 const request = {
-  config,
+  config: (config as unknown) as Config,
   audio
 };
 
 const wait = (milisec = 1000) => new Promise((resolve) => setTimeout(() => resolve(), milisec));
 
-async function transcribeAudio() {
+async function transcribeAudio(req: { config: Config; audio: { uri: string } }) {
   if (fs.existsSync('result.txt')) {
     fs.unlinkSync('result.txt');
   }
   fs.openSync('result.txt', 'w');
   try {
-    const [operation] = await client.longRunningRecognize(request);
+    const [operation] = await client.longRunningRecognize(req);
     const name = operation?.name;
     if (!name) throw new Error('name is not defined');
 
@@ -100,4 +111,4 @@ async function transcribeAudio() {
   }
 }
 
-transcribeAudio();
+transcribeAudio(request);
