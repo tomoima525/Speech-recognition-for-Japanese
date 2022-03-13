@@ -38,7 +38,7 @@
     "yargs": "^16.2.0"
   },
   "dependencies": {
-    "@google-cloud/speech": "^4.1.4",
+    "@google-cloud/speech": "^4.10.0",
     "node-fetch": "^2.6.0"
   }
 }

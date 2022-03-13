@@ -36,7 +36,7 @@ const request = {
   audio
 };
 
-const wait = (milisec = 1000) => new Promise((resolve) => setTimeout(() => resolve(), milisec));
+const wait = (milisec = 1000) => new Promise((resolve) => setTimeout(resolve, milisec));
 
 async function transcribeAudio(req: { config: Config; audio: { uri: string } }) {
   if (fs.existsSync('result.txt')) {
@@ -66,7 +66,6 @@ async function transcribeAudio(req: { config: Config; audio: { uri: string } }) 
       }
     }
 
-    console.log('\nResult:');
     const [response] = await operation.promise();
 
     if (!response.results || response.results?.length === 0) {
@@ -74,6 +73,7 @@ async function transcribeAudio(req: { config: Config; audio: { uri: string } }) 
       return;
     }
 
+    console.log('\nResult:', response.results.length);
     const result = response.results[response.results.length - 1];
     const alternatives = result?.alternatives || [];
     if (alternatives.length <= 0) {
